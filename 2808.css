@@ -1,0 +1,157 @@
+header {
+    background-color: #227B94;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* this is header section */
+header ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+/* this section says or welcomes the viewers */
+#welcome {
+    background-color: #6a9c89e1;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+/* this is education section. */
+#education {
+    background-color: #86ab89e6;
+    padding: 10px;
+    margin: 5px;
+}
+
+#education #btech #btech-clg,
+#btech-cgpa,
+#intermediate-clg,
+#intermediate-cgpa,
+#tenth-clg,
+#tenth-cgpa {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* #education #intermediate #intermediate-clg, #intermediate-cgpa{
+    display: flex;
+    justify-content: space-between;
+}
+#education #tenth #tenth-clg,
+#tenth-cgpa {
+    display: flex;
+    justify-content: space-between;
+}  */
+
+/* this is expercience section */
+
+#experience {
+    background-color: #9cdba69c;
+    padding: 10px;
+    margin: 5px;
+}
+
+#experience #experience-one #internship-one,
+#internship-one-description,
+#internship-two,
+#internship-two-description,
+#project-two-title,
+#project-two-description
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* this is projects section */
+#projects {
+    background-color: #B5CFB7;
+    padding: 10px;
+    margin: 5px;
+}
+#projects #project-one #project-one-title,#project-one-description{
+    display: flex;
+    justify-content: space-between;
+}
+#skills {
+    background-color: #B6C7AA;
+    padding: 10px;
+    margin: 5px;
+}
+
+#additionalinformation {
+    background-color: #C9DABF;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* this is footer section */
+
+footer {
+
+    background-color: #D6EFD8;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+footer button{
+    background-color: skyblue;
+    padding: 5px 15px;
+    border:2px solid black;
+}
+
+/* Here iam making the portofoilo. */
+@media screen and (max-width:450px){
+    body{
+        width: 300px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        flex-direction: column;
+        gap: 5px; 
+     }
+
+}
+@media screen and (min-width:426px )and (max-width:768px){
+    body{
+        width: 426px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    ul{
+        flex-direction: column;
+        gap: 5px; 
+     }
+}
+@media screen and (min-width:769px )and (max-width:1024px){
+    body{
+        width: 769px;
+    }
+
+}
+@media screen and (min-width:1025px )and (max-width:1440px){
+    body{
+        width: 1025px;
+    }
+}
+@media screen and (min-width:1441px )and (max-width:2560px){
+    body{
+        width: 1441px;
+    }
+}
